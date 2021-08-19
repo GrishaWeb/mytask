@@ -8,6 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>aaa</title>
 </head>
@@ -67,12 +68,18 @@
                 <td>Mark</td>
                 <td>oto</td>
                 <td>Kaa</td>
-                <td>
-                    <a href="#" class="btn bg-success"></a>
+                <td class="table-buttons">
+                    <a href="#" class="btn bg-success">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="btn bg-primary">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+
+                    </a>
+                    <a href="#" class="btn bg-danger">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </a>
                 </td>
-
-
-
             </tr>
 
 
