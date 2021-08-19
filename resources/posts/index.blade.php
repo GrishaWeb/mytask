@@ -51,7 +51,34 @@
 
 <div class="container">
 
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Название</th>
+                <th scope="col">Описание</th>
+                <th scope="col">Цена</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>oto</td>
+                <td>Kaa</td>
+                <td>
+                    <a href="#" class="btn bg-success"></a>
+                </td>
 
+
+
+            </tr>
+
+
+
+        </tbody>
+    </table>
 
 </div>
 
